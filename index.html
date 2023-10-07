@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./styles/main.css">
+
+        <title>Bible Verse Generator</title>
+
+        <script src="./js/main.js" defer></script>
+
+    </head>
+
+    <body>
+        
+        <div class="container__box">
+            <div class="box">
+                <div class="box__title">
+                    <span id="book-name"></span>
+                    <span id="book-number-chapter"></span>
+                </div>
+
+                <div class="book__text">
+                    <sup id="book-verse-number"></sup>
+                    <p id="book-text"></p>
+                </div>
+
+                <button onclick="generateVerses()">Generate</button>
+            </div>
+        </div>
+
+    </body>
+
+</html>
